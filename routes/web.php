@@ -14,3 +14,4 @@
 Route::get('/', function () {
     return view('form');
 });
+Route::post('/', 'FormController@index')->name('form');
